@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "test:build": "turbo run test:build"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3",
+    "turbo": "^2.1.3"
+  },
+  "name": "@repro/ui",
+  "packageManager": "npm@10.7.0",
+  "workspaces": [
+    "packages/*"
+  ]
+}
